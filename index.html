@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,900&family=Poppins:ital,wght@0,600;1,400;1,500&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+ body{
+    background-color: rgb(26, 26, 33);
+    color:white;
+    font-family: 'Poppins',sans-serif;
+ }
+ nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(46, 46, 63);
+ }
+ nav ul{
+    display: flex;
+    justify-content: center;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+ }
+ nav ul li a:hover{
+    color: rgb(141, 78, 199);
+ }
+ nav ul li{
+    list-style-type: none;
+    margin: 0 20px;
+ }
+ main hr{
+   border:0;
+   background: #9c97f1;
+   height: 1.2px;
+   margin:40px 84px;
+ }
+ .left{
+    font-size: 1.3rem;
+ }
+ .firstSection{
+    display:flex;
+    justify-content: space-around;
+    margin:83px 0;
+    align-items: center;
+ }
+ .firstSection > div{
+    width: 30%;
+   
+ }
+ .leftSection{
+    width: 50%;
+    font-size: 1.6rem;
+ }
+ .leftSection .buttons{
+   padding:50px 0;
+ }
+ .leftSection .btn{
+   padding:1px;
+   background:#1e2167;
+   color:white;
+   border:2px solid white;
+   border-radius:6px;
+   font-size:20px;
+   cursor:pointer;
+ }
+.rightSection{
+    width: 50%;
+ }
+ .rightSection img{
+    width:100%; 
+   
+ }
+ .purple{
+   color: rgb(164, 103, 222);
+ }
+ .text-grey{
+   color:grey;
+ }
+ #element{
+   color: rgb(164, 103, 222);
+ }
+ .secondSection{
+   max-width: 80vw;
+   margin:auto;
+   height:70vh;
+ }
+ .secondSection h1{
+   font-size: 1.7rem;
+ }
+ .secondSection .box{
+   background: white;
+   width:140vh;
+   height:2px;
+   margin:56px 10px;
+   display:flex;
+ }
+ .secondSection .box .vertical{
+   height:93px;
+   width:1px;
+   background:white;
+   margin:0 100px;
+
+ }
+ .image-top{
+   width:26px;
+   position:relative;
+   top:-32px;
+   left:-9px;
+ }
+ .vertical-title{
+  position:relative;
+  top:60px;
+  width:150px;
+
+ }
+ .vertical-desc{
+     color:grey;
+     width:160px;
+     font-size:10px;
+     margin: 60px 0;
+ }
+ .thirdSection{
+   max-width: 80vw;
+   margin:auto;
+   height:75vh;
+ }
+ .thirdSection h1{
+   font-size: 1.7rem;
+ }
+ .thirdSection .box{
+   background: white;
+   width:140vh;
+   height:2px;
+   margin:56px 10px;
+   display:flex;
+ }
+ .thirdSection .box .vertical{
+   height:93px;
+   width:1px;
+   background:white;
+   margin:0 100px;
+
+ }
+ .vertical2-title{
+  position:relative;
+  top:90px;
+  width:150px;
+
+ }
+ .vertical2-desc{
+     color:grey;
+     width:160px;
+     font-size:10px;
+     margin: 90px 0;
+ }
+ .fourthSection{
+   max-width: 80vw;
+   margin:auto;
+   height:35vh;
+ }
+ .fourthSection h1{
+   font-size: 1.5rem;
+ }
+ .vertical3-title{
+  position:relative;
+  top:40px;
+  width:150px;
+
+ }
+ .vertical3-desc{
+     color:grey;
+     width:160px;
+     font-size:10px;
+     margin: 90px 0;
+ }
+ footer{
+   background-color: rgb(28, 28, 35);
+   
+ }
+ .footer{
+   display:flex;
+   padding: 25px 100px;
+   justify-content:space-evenly;
+   font-size:.6rem;
+ }
+ .footer ul{
+    list-style:none;
+    font-size:.7rem;
+
+ }
+ footer .footer-right{
+   text-align:center;
+   color:grey;
+   padding:12px 0;
+   font-size:.8rem;
+ }
+
+    </style>
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="left">Nishtha's Portfolio</div>
+       <div class="right">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+        </ul>
+       </div>
+    </nav>
+   </header>
+   <main>
+    <section class="firstSection">
+     <div class="leftSection">
+     Hi, My Name is <span class="purple">Nishtha Singh</span>  
+     <div>I am a passionate</div>
+     <span id="element"></span>
+     <div clas="buttons">
+      <button class="btn" onclick=" window.open('resume.pdf'); return true;">Download Resume </button>
+     </div>
+     </div>
+    <div class="rightSection">
+        <img src="back.png" alt="">
+    </div>
+
+    </section>
+    <hr>
+    <section class="thirdSection">
+      <span class="text-grey">What I have learn</span>
+      <h1>Skills</h1>
+      <div class="box">
+      <div class="vertical">
+         <div class="vertical2-title">
+            Languages
+         </div>
+         <div class="vertical2-desc">
+            CPP(Programming Language), C, Java, HTML/CSS, JavaScript, React.JS, Node.JS, Express.js, SQ
+            </div>
+      </div>
+      <div class="vertical">
+         <div class="vertical2-title">
+            Technologies/ Frameworks
+         </div>
+         <div class="vertical2-desc">
+             Linux, Git, GitHub, MongoDB, Bootstrap
+            </div>
+      </div>
+      <div class="vertical">
+         <div class="vertical2-title">
+            Curriculum
+         </div>
+         <div class="vertical2-desc">
+            Data Structures and Algorithm, OOPS Concepts, DBMS, Operating System, Computer Network, Software Engineering, 
+            Machine Learning, Artificial Intelligence, Data Mining, IOT
+            </div>
+      </div>
+      <div class="vertical">
+         <div class="vertical2-title">
+            Interests
+         </div>
+         <div class="vertical2-desc">
+            Software Development, Website Development, Front-end Development, Back-end Development,MERN Development
+           </div>
+          </div>
+         </div>
+         </div>
+      </section>
+    <hr>
+    <section class="secondSection">
+      <span class="text-grey">What I have done so far</span>
+      <h1>Projects</h1>
+     <div class="box">
+      <div class="vertical">
+         <img class="image-top" src="pic.png">
+         <div class="vertical-title">
+            Todo Website
+         </div>
+         <div class="vertical-desc">
+           A Website that helps to track your tasks and provide better way to handle your works and it is Created by using the technology React.js and JavaScript
+            </div>
+      </div>
+      <div class="vertical">
+         <img class="image-top" src="pic.png">
+         <div class="vertical-title">
+            Calculator
+         </div>
+         <div class="vertical-desc">
+            Created a Website to Calculate the various operations and it is created by using the technology React.js and JavaScript
+         </div>
+      </div>
+      <div class="vertical">
+         <img class="image-top" src="pic.png">
+         <div class="vertical-title">
+            Personal Portfolio
+         </div>
+         <div class="vertical-desc">
+            Personal Portfolio that contains my personal details like skills, projects, contact information etc. and it is created by HTML and CSS.
+         </div>
+      </div>
+      <div class="vertical">
+         <img class="image-top" src="pic.png">
+         <div class="vertical-title">
+            HTML CheatSheet Template
+         </div>
+         <div class="vertical-desc">
+           This website is used to contain the knowledge of common used HTML points that help a developer to work faster and it is created by HTML and CSS.
+         </div>
+      </div>
+     </div>
+    </section>
+   <hr>
+   <section class="fourthSection">
+    <h1>Contact Me</h1>
+    <div class="vertical3-title">Email address: <span class="text-grey">nishthasingh116@gmail.com</span></div>
+    <div class="vertical3-title">Phone: <span class="text-grey">+91XXXXXXXXXX</span></div>
+   </section>
+   </main>
+   <footer>
+      <div class="footer">
+         <div class="footer-first">
+            <h1>Developer Portfolio</h1>
+         </div>
+         <div class="footer-second">
+            <ul>
+               <li>Home</li>
+               <li>Projects</li>
+               <li>Skills</li>
+               <li>Contact</li>
+            </ul>
+         </div>
+         <div class="footer-third">
+            <ul>
+               <li>C language</li>
+               <li>C++ language</li>
+               <li>Java</li>
+               <li>JavaScript</li>
+            </ul>
+         </div>
+         <div class="footer-fourth">
+            <ul>
+               <li>Data Structure</li>
+               <li>OOPs Concept</li>
+               <li>Operating System</li>
+               <li>Computer Networks</li>
+            </ul>
+         </div>
+      </div>
+      <div class="footer-right">
+         www.portfolio.com | ©All rights reserved
+       </div>
+   </footer>
+   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script>
+      var typed = new Typed('#element', {
+        strings: ['Web Developer', 'Software Developer'],
+        typeSpeed: 50,
+      });
+    </script>
+</body>
+</html>
+
